@@ -6,7 +6,7 @@
 /* Section 1: navbar */
 .navbar1 {
     display: flex;
-    height: 60px;
+    height: 3.75rem;
     width: 100%;
     /* position: fixed; */
     background-color: #0f1111;
@@ -18,32 +18,32 @@
 
 /* Section 1: navbar: Amazon logo */
 .nav-logo {
-    height: 50px;
-    width: 100px;
+    height: 3.125rem;
+    width: 6.25rem;
 }
 .logo {
     background-image: url("amazon-logo.png");
     background-size: cover;
-    height: 50px;
+    height: 3.125rem;
     width: 100%;
 }
 
 .border {
-    border: 1px transparent;
+    border: 0.0625rem transparent;
 }
 .border:hover {
-    border: 1px solid white;
+    border: 0.0625rem solid white;
 }
 
 /*Section 1: navbar:  navbar-location */
 .Deliver {
     color: #cccccc;
     font-size: 0.80rem;
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 .India {
     font-size: 1rem;
-    margin-left: 3px;
+    margin-left: 0.1875rem;
 }
 .add-icon {
     display: flex;
@@ -55,20 +55,19 @@
     display: flex;
     justify-content: space-evenly;
     background-color: orange;
-    width: 600px;
-    height: 40px;
-    border-radius: 4px
+    width: 37.5rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
 }
 .nav-search:hover {
-    border: 2px solid rgb(227, 178, 73);
+    border: 0.125rem solid rgb(227, 178, 73);
 }
 .search-select {
     background-color: rgb(213, 209, 209);
-    width: 50px;
+    width: 3.125rem;
     text-align: center;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border: none;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
 }
 .search-input {
     width: 100%;
@@ -76,7 +75,7 @@
     bottom: none;
 }
 .search-icon {
-    width: 45px;
+    width: 2.8125rem;
     display: flex;
     justify-content: center;
     /* horizontaly centre*/
@@ -84,8 +83,8 @@
     /* verticaly centre*/
     font-size: 1.25rem;
     background-color: rgb(244, 179, 40);
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
     color: black;
 }
 
@@ -125,7 +124,7 @@
 }
 .cart-text {
     font-size: 0.80rem;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     font-weight: 700;
 }
 
@@ -133,7 +132,7 @@
 .navbar2 {
     position: relative;
     display: flex;
-    height: 35px;
+    height: 2.1875rem;
     background-color: rgb(41, 56, 77);
     color: white;
     align-items: center;
@@ -150,7 +149,7 @@
 }
 .navbar-option p {
     display: inline;
-    margin-left: 14px;
+    margin-left: 0.875rem;
 }
 .option-great-deals {
     font-size: 0.95rem;
@@ -160,7 +159,7 @@
 /* Section 2 */
 .sale-image-page {
     background-image: url(page_main.jpg);
-    height: 370px;
+    height: 23.125rem;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -168,13 +167,13 @@
 }
 .massage {
     background-color: white;
-    height: 40px;
+    height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.88rem;
     width: 90%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .massage a {
     text-decoration: none;
@@ -189,15 +188,15 @@
     background-color: #e2e7e6;
 }
 .box {
-    height: 400px;
+    height: 25rem;
     /* border: 2px solid black; */
     width: 22%;
     background-color: white;
-    padding: 20px 0px 15px;
-    margin-top: 15px;
+    padding: 1.25rem 0rem 0.9375rem;
+    margin-top: 0.9375rem;
 }
 .card-box1-image {
-    height: 300px;
+    height: 18.75rem;
     background-size: cover;
     /* background-repeat: no-repeat; */
     margin-top: 1rem;
@@ -217,14 +216,14 @@
 
 /* Section 4: footer */
 footer{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* Section 4: Footer : panel 1 */
 .footer-panel-1{
     background-color: #374758;
     color: white;
-    height: 50px;
+    height: 3.125rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,17 +234,17 @@ footer{
 .footer-panel-2{
     background-color: #222f3d;
     color: white;
-    height: 350px;
+    height: 21.875rem;
     display: flex; /*ul in in single row */
     justify-content: space-evenly;
 }
 ul{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 ul a{
     display: block; /*ul in in single line */
     font-size: 0.85rem;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     color: #dddddd;
     
 }
@@ -255,7 +254,7 @@ ul a{
     background-color: #222f3d;
     border-top: 0.5px solid white;
     color: white;
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: center; /*horizontaly centre*/
     align-items: center; /*Vericaly centre*/
@@ -263,21 +262,21 @@ ul a{
 .logo-footer{
     background-image: url("amazon-logo.png");
     background-size: cover;
-    height: 40px;
-    width: 100px;
+    height: 2.5rem;
+    width: 6.25rem;
 }
 
 /* Section 4: Footer : panel 4*/
 .footer-panel-4{
     background-color: #0f1111;
     color: white;
-    height: 90px;
+    height: 5.625rem;
     font-size: 0.9rem;
     text-align: center;
 }
 .pages-link{
-    padding-top: 25px;
+    padding-top: 1.5625rem;
 }
 .copyright-text{
-    padding: 5px;
+    padding: 0.3125rem;
 }
